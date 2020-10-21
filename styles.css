@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: url("stop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    background: #ccc;
+    width: 400px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+
+}
+
+.badge{
+    background: #e66357;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 96px;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+
+}
+
+.clock{
+    background: #EBEBEB;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+
+}
